@@ -1,6 +1,26 @@
-Observation:
-The Spearman Rank Correlation Coefficient is a measure of whether two continuous or discrete variables are positively related or negatively related. The assignment calls for making a comparison between DuckDuckGo and Google search engines (considering Google as a baseline). The values of average percentage overlap of 15.4% means that there are almost 2 (out of the top 10) same queries are returned by both DuckDuckGo and Google.
-On the other hand, the average spearman rank correlation coefficient of -7.125 is negative which means that DuckDuckGo ranks important links and useful links lower when compared to the ranks provided by google for the same results. This is the reason that DuckDuckGo performs worse than Google.
 
-Average Percentage Overlap: 15.4%
-Average Spearman Coefficient: -7.125
+                                    -------------------------
+                                        CSCI-572 HOMEWORK-1
+                                    -------------------------
+Name: Nikhil Govindaraju
+USC ID: 1470875613
+Email: ngovinda@usc.edu                                           
+-------------------------
+Query Set used: Set 1
+Search Engine: BING
+-------------------------
+
+Observation from Web Crawling:
+Comparison of search engine results between GOOGLE and BING keeping GOOGLE as base gives us the following conclusions:
+
+Average Percentage Overlap is 15.4%
+This indicates that both search engines returns different sets of search results for the same set of queries. We can infer that each search engines prioritize different content
+and index web differently. We can say that ~ 2 out of top 10 results match for the queries given.
+
+Average Spearman Coefficient is -7.125
+Spearman rank correlation coefficient measures the similarity between the rankings of two sets of data. We know that a perfect coefficient would be +1 which means both the search engines give identical results for the given set of queries.
+But in our case, -7.125 signifies that not only google and bing return different search results, but for few results that overlap have different rankings and these ranks are often reversed i.e the result that is highly ranked by google might appear 
+lower in bing and vice versa. This could also be one of the big reasons why certain search engines do not perform very well when we compare it with google.
+
+
+
