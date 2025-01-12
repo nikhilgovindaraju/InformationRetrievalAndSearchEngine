@@ -1,0 +1,52 @@
+[
+    {
+      "MusicGenre": "Pop",
+      "SongTitle": "Blinding Lights",
+      "Artist": "The Weeknd"
+    },
+    {
+      "MusicGenre": "Rock",
+      "SongTitle": "Bohemian Rhapsody",
+      "Artist": "Queen"
+    },
+    {
+      "MusicGenre": "Hip Hop",
+      "SongTitle": "Sicko Mode",
+      "Artist": "Travis Scott"
+    },
+    {
+      "MusicGenre": "Country",
+      "SongTitle": "Take Me Home, Country Roads",
+      "Artist": "John Denver"
+    },
+    {
+      "MusicGenre": "Jazz",
+      "SongTitle": "Take Five",
+      "Artist": "The Dave Brubeck Quartet"
+    },
+    {
+      "MusicGenre": "Classical",
+      "SongTitle": "Clair de Lune",
+      "Artist": "Claude Debussy"
+    },
+    {
+      "MusicGenre": "R&B",
+      "SongTitle": "No Scrubs",
+      "Artist": "TLC"
+    },
+    {
+      "MusicGenre": "Electronic",
+      "SongTitle": "Strobe",
+      "Artist": "Deadmau5"
+    },
+    {
+      "MusicGenre": "Reggae",
+      "SongTitle": "One Love",
+      "Artist": "Bob Marley & The Wailers"
+    },
+    {
+      "MusicGenre": "Latin",
+      "SongTitle": "Despacito",
+      "Artist": "Luis Fonsi feat. Daddy Yankee"
+    }
+  ]

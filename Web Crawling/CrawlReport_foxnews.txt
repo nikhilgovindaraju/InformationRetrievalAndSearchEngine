@@ -1,0 +1,44 @@
+                                    -------------------------
+                                        CSCI-572 HOMEWORK-2
+                                    -------------------------
+
+Name: Nikhil Govindaraju
+USC ID: 1470875613
+News site crawled: foxnews.com
+Number of threads: 7
+
+Fetch Statistics:
+=================
+# fetches attempted: 20000
+# fetches succeeded: 19781
+# fetches failed or aborted: 219
+
+Outgoing URLs:
+==============
+Total URLs extracted: 2856393
+# unique URLs extracted: 163678
+# unique URLs within News Site: 73887
+# unique URLs outside News Site: 89791
+
+Status Codes:
+=============
+200 OK: 19781
+301 Moved Permanently: 132
+404 Not Found: 84
+500 Internal Server Error: 3
+
+File Sizes:
+===========
+< 1KB: 0
+1KB ~ <10KB: 0
+10KB ~ <100KB: 6306
+100KB ~ <1MB: 13406
+>= 1MB: 69
+
+Content Types:
+==============
+text/html: 19781
+image/gif:0
+image/jpeg:0
+image/png:0
+application/pdf:0

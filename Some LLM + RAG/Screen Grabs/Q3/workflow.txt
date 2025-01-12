@@ -1,0 +1,38 @@
+
+                                                -------------------------
+                                                    CSCI-572 HOMEWORK-4
+                                                -------------------------
+
+-------------------------
+Name: Nikhil Govindaraju
+USC ID: 1470875613
+Email: ngovinda@usc.edu                                           
+-------------------------
+
+                                           -----------------------------------
+                                           HuggingFace RAG Pipeline Overview:
+                                           -----------------------------------
+
+How are the documents processed?
+- "PyPDFLoader" is used to load the documents.
+- "RecursiveCharacterTextSplitter" is used to split documents into little chunks.
+- "HuggingFaceEmbeddings" is used to create the embeddings.
+
+Query processing of the PDF documents:
+- LLM is initialized using "HuggingFaceEndpoint". It can be done using either of the models "Llama-3" or "Mistral".
+- "ConversationalRetrievalChain" retrieves relevant documents, formats conversation history and generates responses using LLM.
+
+UI workflow and components:
+
+    .Input a document
+        - Drag and drop / upload the PDF document.
+        - User can select the models using radio button.
+        - "Create Vector Database" will trigger database creation.
+        - Click on "Initialize Question Answering" chatbot to start conversation with LLM.
+
+    .Output display
+        - Start the conversation by querying the LLM with your own question with respect to the document uploaded.
+        - The model generates the answer, for example in the screenshot attached, I have uploaded the document on car company "Porsche" and queried 
+          based on the things present in the document and obtained the results.
+        - Additionally, user can also reference the page numbers for efficient responses.
+
